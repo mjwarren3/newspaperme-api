@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 from langserve import add_routes
-from config import OPENAI_API_KEY, SECRET_API_KEY
 
 from category import category_chain
 
